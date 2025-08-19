@@ -13,7 +13,7 @@ All Tiled Widgets are Free and Open Source Software and is licensed under GNU Le
 
 Source for Tiled Screen can be found on [Github](https://github.com/kavinunethsara/tiledscreen).
 
-<!-->ource for Tiled Tray can be found on [Github](https://github.com/kavinunethsara/tiledtray).<-->
+<!-- Source for Tiled Tray can be found on [Github](https://github.com/kavinunethsara/tiledtray). -->
 
 # Credits and License
 
