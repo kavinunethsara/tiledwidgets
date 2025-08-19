@@ -1,0 +1,18 @@
+{
+    "Auto_generated": "This file is auto-generated. Any extra tags or formatting will be lost",
+    "target_sets": [
+        {
+            "cmake_config": "",
+            "directory": "%B",
+            "loaded_via_cmake": false,
+            "name": "Website",
+            "targets": [
+                {
+                    "build_cmd": "",
+                    "name": "preview",
+                    "run_cmd": "jekyll s -l"
+                }
+            ]
+        }
+    ]
+}
