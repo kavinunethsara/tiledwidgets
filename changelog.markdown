@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Release 1.1
+title: Release 2.0
 cover: "{{site.baseurl}}/assets/images/article-front.png"
 ---
 
@@ -26,9 +26,9 @@ Second major version of TiledScreen plasmoid.
 
 ## Features
 
-<div class="tile rounded">
+<div class="tile rounded purple">
     <div class="grid x2 adaptive stretch-width">
-        <img src="{{site.baseurl}}/assets/images/v1-backed-tiles.png" />
+        <img src="{{site.baseurl}}/assets/images/screenview.png" />
         <div class="flex column spaced">
             <h4> Expandable tiles </h4>
             <p> Tiles can now switch the current page into a tile provided one to allow for addition functionality. This is already used by the newly included Networks tile to provide a screen for connecting and disconnecting from networks.</p>
@@ -36,25 +36,35 @@ Second major version of TiledScreen plasmoid.
     </div>
 </div>
 
+<div class="tile rounded">
+    <div class="grid x2 adaptive stretch-width">
+        <div class="flex column spaced">
+            <h4> Text Alignment </h4>
+            <p> Now you can change the text alignment direction of Icon and Category tiles. </p>
+        </div>
+        <img src="{{site.baseurl}}/assets/images/alignment.png" />
+    </div>
+</div>
+
 ## Builtin Tiles
 
-<div class="tile rounded brown">
+<div class="tile rounded purple">
     <div class="grid x2 adaptive stretch-width">
+        <img src="{{site.baseurl}}/assets/images/volume.png" />
         <div class="flex column spaced">
             <h4> Brightness and Volume Tiles </h4>
             <p> Brightness and Volume tiles allow you to adjust the respective system configurations. </p>
         </div>
-        <img src="{{site.baseurl}}/assets/images/v1-calendar.png" />
     </div>
 </div>
 
 <div class="tile rounded">
     <div class="grid x2 adaptive stretch-width">
-        <img src="{{site.baseurl}}/assets/images/v1-outlined-binaryclock.png" />
         <div class="flex column spaced">
             <h4> System Toggles </h4>
             <p> This release includes a collection of system toggle tiles that allows you to quickly enable and disable system operations. Included are Do Not Disturb, Caffeine ( Stops automatic screen locking ), Bluetooth and Nightlight </p>
         </div>
+        <img src="{{site.baseurl}}/assets/images/toggles.png" />
     </div>
 </div>
 
@@ -64,7 +74,7 @@ Second major version of TiledScreen plasmoid.
             <h4> Networks Tile </h4>
             <p> Network tile provides a way to connect and disconnect from wired and wireless networks. Left click on the tile opens the Network view while a iddle click will toggle it on or off. </p>
         </div>
-        <img src="{{site.baseurl}}/assets/images/v1-outlined-binaryclock.png" />
+        <img src="{{site.baseurl}}/assets/images/network.png" />
     </div>
 </div>
 
