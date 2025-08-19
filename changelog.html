@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta name=" description" content= "Tiled Screen, a tile based launcher for KDE PLasma 6." />
+    
+    <meta property=”og:title” content="Tiled Screen : Release 1.1" />
+    
+    <meta property=”og:image” content="{{site.baseurl}}/assets/images/article-front.png" />
+    
+
+    <link rel="icon" type="image/x-icon" href="/tiledwidgets/assets/images/tiledscreen.svg">
+    <link rel="stylesheet" href="/tiledwidgets/assets/css/styles.css">
+    <title>Tiled Widgets : Release 1.1</title>
+</head>
+<body>
+
+    <header>
+        <nav class="primary">
+    <div class="flex row stretch-width center-content">
+        <a href="/tiledwidgets/" class="stylized">Tiled&nbsp;Widgets</a>
+        <div class="flex stretch-width"></div>
+        <button class="button mobile-only" onClick=showMenu() >
+            <img src="/tiledwidgets/assets/images/application-menu.svg" style="width: 20pt; height: 20pt; filter: invert();" />
+        </button>
+    </div>
+    <div class="desktop-only" id="collapsible">
+        
+<a href="/tiledwidgets//store" class="button ">Store</a>
+
+
+        
+<a href="/tiledwidgets//docs" class="button ">Documentation</a>
+
+
+        
+<a href="/tiledwidgets//about" class="button ">About</a>
+
+
+        
+<a href="/tiledwidgets//download" class="button ">Download</a>
+
+
+    </div>
+    <script>
+        const menu = document.querySelector('#collapsible')
+        const showMenu = () => {
+            menu.classList.toggle('desktop-only')
+        }
+    </script>
+</nav>
+
+    </header>
+
+    <div class="grid x2 adaptive spaced center-content" id="article">
+        <nav class="content hidden">
+            <ol id="content">
+            </ol>
+        </nav>
+        <main>
+            <article>
+                <p><img class="background" src="/tiledwidgets/assets/images/article-front.png" /></p>
+
+<h1 id="tiled-screen-version-20">Tiled Screen Version 2.0</h1>
+
+<p>Second major version of TiledScreen plasmoid.</p>
+
+<!--
+## Tiled Tray
+
+<div class="tile rounded blue">
+    <div class="grid x2 adaptive stretch-width">
+        <div class="flex column spaced">
+            <h4> Introducing Tiled Tray </h4>
+            <p> Tiled Tray is a new widget in the Tiled Widgets collection. It provides a flexible tile popup that you can turn into any type of Plasmoid using Tiles. </p>
+        </div>
+        <img src="/tiledwidgets/assets/images/v1-tile-menu.png" />
+    </div>
+</div>
+-->
+
+<h2 id="features">Features</h2>
+
+<div class="tile rounded">
+    <div class="grid x2 adaptive stretch-width">
+        <img src="/tiledwidgets/assets/images/v1-backed-tiles.png" />
+        <div class="flex column spaced">
+            <h4> Expandable tiles </h4>
+            <p> Tiles can now switch the current page into a tile provided one to allow for addition functionality. This is already used by the newly included Networks tile to provide a screen for connecting and disconnecting from networks.</p>
+        </div>
+    </div>
+</div>
+
+<h2 id="builtin-tiles">Builtin Tiles</h2>
+
+<div class="tile rounded brown">
+    <div class="grid x2 adaptive stretch-width">
+        <div class="flex column spaced">
+            <h4> Brightness and Volume Tiles </h4>
+            <p> Brightness and Volume tiles allow you to adjust the respective system configurations. </p>
+        </div>
+        <img src="/tiledwidgets/assets/images/v1-calendar.png" />
+    </div>
+</div>
+
+<div class="tile rounded">
+    <div class="grid x2 adaptive stretch-width">
+        <img src="/tiledwidgets/assets/images/v1-outlined-binaryclock.png" />
+        <div class="flex column spaced">
+            <h4> System Toggles </h4>
+            <p> This release includes a collection of system toggle tiles that allows you to quickly enable and disable system operations. Included are Do Not Disturb, Caffeine ( Stops automatic screen locking ), Bluetooth and Nightlight </p>
+        </div>
+    </div>
+</div>
+
+<div class="tile rounded purple">
+    <div class="grid x2 adaptive stretch-width">
+        <div class="flex column spaced">
+            <h4> Networks Tile </h4>
+            <p> Network tile provides a way to connect and disconnect from wired and wireless networks. Left click on the tile opens the Network view while a iddle click will toggle it on or off. </p>
+        </div>
+        <img src="/tiledwidgets/assets/images/v1-outlined-binaryclock.png" />
+    </div>
+</div>
+
+<h2 id="api-changes">API Changes</h2>
+
+<ol>
+  <li>Addition of <code class="language-plaintext highlighter-rouge">expandedView</code> property. When defined for a tile, the value is used as the expanded page for the tile. For more info, check the <a href="/tiledwidgets/docs#expanded-view">documentation</a></li>
+  <li>Addition of the <code class="language-plaintext highlighter-rouge">toggleOnActivate</code> property to prevent widget from closing when a tile is activated. See <a href="/tiledwidgets/docs#tile-internals">Tile Internals</a></li>
+</ol>
+
+<h2 id="bug-fixes">Bug fixes</h2>
+
+<ol>
+  <li>Fixed the scroll issues in the tile selector, porting it into a more standard dialog.</li>
+</ol>
+
+            </article>
+        </main>
+    </div>
+
+    <footer>
+    
+        <p class="center-content">&copy; 2025 Kavinu Nethsara. MIT License.</p>
+
+    
+    </footer>
+
+    <script>
+        const contents = document.querySelector('.index')
+        const holder = document.querySelector('#content')
+        const article =document.querySelector('#article')
+
+        if (contents) {
+            holder.innerHTML = contents.innerHTML
+            holder.parentElement.classList.remove("hidden")
+            article.classList.remove('center-content')
+        }
+    </script>
+
+</body>
+
+<script src="/tiledwidgets/assets/js/gallery.js"></script>
+</html>

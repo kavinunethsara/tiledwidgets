@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta name=" description" content= "Display time as a binary pattern" />
+    
+    <meta property=”og:title” content="Tiled Screen : Binary Clock" />
+    
+    <meta property=”og:image” content="/tiledwidgets/assets/images/tiles/com.github.kavinunethsara.binaryclock/bged.png" />
+    
+
+    <link rel="icon" type="image/x-icon" href="/tiledwidgets/assets/images/tiledscreen.svg">
+    <link rel="stylesheet" href="/tiledwidgets/assets/css/styles.css">
+    <title>Tiled Widgets : Binary Clock</title>
+</head>
+<body>
+
+    <header>
+        <nav class="primary">
+    <div class="flex row stretch-width center-content">
+        <a href="/tiledwidgets/" class="stylized">Tiled&nbsp;Widgets</a>
+        <div class="flex stretch-width"></div>
+        <button class="button mobile-only" onClick=showMenu() >
+            <img src="/tiledwidgets/assets/images/application-menu.svg" style="width: 20pt; height: 20pt; filter: invert();" />
+        </button>
+    </div>
+    <div class="desktop-only" id="collapsible">
+        
+<a href="/tiledwidgets//store" class="button ">Store</a>
+
+
+        
+<a href="/tiledwidgets//docs" class="button ">Documentation</a>
+
+
+        
+<a href="/tiledwidgets//about" class="button ">About</a>
+
+
+        
+<a href="/tiledwidgets//download" class="button ">Download</a>
+
+
+    </div>
+    <script>
+        const menu = document.querySelector('#collapsible')
+        const showMenu = () => {
+            menu.classList.toggle('desktop-only')
+        }
+    </script>
+</nav>
+
+    </header>
+
+    <div class="grid x2 adaptive spaced center-content" id="article">
+        <nav class="content hidden">
+            <ol id="content">
+            </ol>
+        </nav>
+        <main>
+            <article>
+                
+
+
+<img class="background" src="/tiledwidgets/assets/images/tiles/com.github.kavinunethsara.binaryclock/bged.png" />
+
+<div class="flex row center-content stretch-width">
+    <h1 class="nowrap"> Binary Clock </h1>
+    <h4 class="spaced center-content nowrap"> 1.0 </h4>
+    <span class="flex stretch-width"> <!-- Separator --> </span>
+    
+    <a href="https://github.com/kavinunethsara/BinaryclockTile/">
+        <button class="center-content"> <img src="/tiledwidgets/assets/images/edit-download.svg" class="icon" /> Website </button>
+    </a>
+    
+    <a href="https://github.com/kavinunethsara/BinaryclockTile/releases/download/v1.5.0/binaryclock.tile.zip">
+        <button class="center-content"> <img src="/tiledwidgets/assets/images/edit-download.svg" class="icon" /> Download </button>
+    </a>
+</div>
+
+
+
+<span class="badge official">Official</span>
+
+
+<p>
+    <b> Created by </b>
+        <a href="kavinunethsarakoswattage@gmail.com">Kavinu Nethsara</a>,
+    <b> License: </b>
+        MIT license,
+    <b> Last update: </b>
+        2025-02-13
+</p>
+
+
+<section class="gallery" id="gallery">
+    <img class="active" src="/tiledwidgets/assets/images/tiles/com.github.kavinunethsara.binaryclock/bged.png" />
+    <div class="flex row wrap center-content">
+        
+            
+                <img class="thumbnail current spaced" src="/tiledwidgets/assets/images/tiles/com.github.kavinunethsara.binaryclock/bged.png" />
+            
+        
+            
+                <img class="thumbnail spaced" src="/tiledwidgets/assets/images/tiles/com.github.kavinunethsara.binaryclock/outlined.png" />
+            
+        
+    </div>
+</section>
+
+
+<p>A Clock that display time in binary LEDs. LED colours and visibility is fully configurable. This is based on the Binary Clock plasma widget by KDE.</p>
+
+
+            </article>
+        </main>
+    </div>
+
+    <footer>
+    
+        <p class="center-content">&copy; 2025 Kavinu Nethsara. MIT License.</p>
+
+    
+    </footer>
+
+    <script>
+        const contents = document.querySelector('.index')
+        const holder = document.querySelector('#content')
+        const article =document.querySelector('#article')
+
+        if (contents) {
+            holder.innerHTML = contents.innerHTML
+            holder.parentElement.classList.remove("hidden")
+            article.classList.remove('center-content')
+        }
+    </script>
+
+</body>
+
+<script src="/tiledwidgets/assets/js/gallery.js"></script>
+</html>

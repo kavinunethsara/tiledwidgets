@@ -1,7 +1,22 @@
----
-layout: page
----
-<img class="background" src={{"/assets/images/article-front.png" | relative_url }} />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta name=" description" content= "Tiled Screen, a tile based launcher for KDE PLasma 6." />
+    
+    <meta property=”og:title” content="Tiled Screen : Home" />
+    
+    <meta property=”og:image” content="{{site.baseurl}}/assets/images/article-front.png" />
+    
+
+    <link rel="icon" type="image/x-icon" href="/tiledwidgets/assets/images/tiledscreen.svg">
+    <link rel="stylesheet" href="/tiledwidgets/assets/css/styles.css">
+    <title>Tiled Widgets : Home</title>
+</head>
+<img class="background" src=/tiledwidgets/assets/images/article-front.png />
 <body class="center-content">
 
     <main>
@@ -12,7 +27,7 @@ layout: page
 
 
         <section class="flex row center-content">
-            <a class="tile bordered rounded" href="{{site.baseurl}}/changelog">
+            <a class="tile bordered rounded" href="/tiledwidgets/changelog">
                 <div class="flex row">
                     <div class="flex column center-content">
                         <h4>Version 1.1 released</h4>
@@ -33,13 +48,13 @@ layout: page
                     <h4> Tiled Screen </h4>
                     <p> A Full Screen application launcher reminiscent of Windows 8 Start Screen. </p>
                 </div>
-                <img src="{{site.baseurl}}/assets/images/v1-tile-menu.png" />
+                <img src="/tiledwidgets/assets/images/v1-tile-menu.png" />
             </div>
         </div>
 
         <!--div class="tile rounded brown">
             <div class="grid x2 adaptive">
-                <img src="{{site.baseurl}}/assets/images/v1-tile-menu.png" />
+                <img src="/tiledwidgets/assets/images/v1-tile-menu.png" />
                 <div class="flex column spaced">
                     <h4> Tiled Tray </h4>
                     <p> A highly customizable widget that can be turned into whatever you want. </p>
@@ -70,7 +85,11 @@ layout: page
     </main>
 
     <footer>
-        {% include footer.html %}
+        <p class="center-content">&copy; 2025 Kavinu Nethsara. MIT License.</p>
+
     </footer>
 
 </body>
+
+<script src="/tiledwidgets/assets/js/gallery.js"></script>
+</html>

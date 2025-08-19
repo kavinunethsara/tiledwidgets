@@ -1,9 +1,60 @@
----
-permalink: /404.html
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style type="text/css" media="screen">
+    
+    <meta name=" description" content= "Tiled Screen, a tile based launcher for KDE PLasma 6." />
+    
+    <meta property=”og:title” content="Tiled Screen : " />
+    
+
+    <link rel="icon" type="image/x-icon" href="/tiledwidgets/assets/images/tiledscreen.svg">
+    <link rel="stylesheet" href="/tiledwidgets/assets/css/styles.css">
+    <title>Tiled Widgets : </title>
+</head>
+<body class="center-content">
+
+    <header>
+        <nav class="primary">
+    <div class="flex row stretch-width center-content">
+        <a href="/tiledwidgets/" class="stylized">Tiled&nbsp;Widgets</a>
+        <div class="flex stretch-width"></div>
+        <button class="button mobile-only" onClick=showMenu() >
+            <img src="/tiledwidgets/assets/images/application-menu.svg" style="width: 20pt; height: 20pt; filter: invert();" />
+        </button>
+    </div>
+    <div class="desktop-only" id="collapsible">
+        
+<a href="/tiledwidgets//store" class="button ">Store</a>
+
+
+        
+<a href="/tiledwidgets//docs" class="button ">Documentation</a>
+
+
+        
+<a href="/tiledwidgets//about" class="button ">About</a>
+
+
+        
+<a href="/tiledwidgets//download" class="button ">Download</a>
+
+
+    </div>
+    <script>
+        const menu = document.querySelector('#collapsible')
+        const showMenu = () => {
+            menu.classList.toggle('desktop-only')
+        }
+    </script>
+</nav>
+
+    </header>
+
+    <main>
+        <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -23,3 +74,15 @@ layout: default
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+    </main>
+
+    <footer>
+        <p class="center-content">&copy; 2025 Kavinu Nethsara. MIT License.</p>
+
+    </footer>
+
+</body>
+
+<script src="/tiledwidgets/assets/js/gallery.js"></script>
+</html>
