@@ -1,18 +1,8 @@
-# sv
+# Tiled Widgets
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Website for Tiled Widgets - a collection of plasmoids for KDE Plasma 6 utilizing a configurable Tile grid.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+Made with SvelteKit
 
 ## Developing
 
@@ -33,6 +23,4 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This creates the build in `/build`
