@@ -11,7 +11,7 @@ To publish a tile to the store section of the official website, create a Pull Re
 1. Images must be of the aspect ratio 16:9 and below 125KB.
 1. 6 Images are allowed in maximum
 
-The package for the tile should be ZIP file with extension `.tile.zip`. The package files WILL NOT be hosted on the website, they should be uploaded to an externally.
+The package for the tile should be ZIP file with extension `.tile.zip`. The package files WILL NOT be hosted on the website, they should be uploaded externally.
 
 ### Tile Information
 
