@@ -41,7 +41,7 @@
 <DetailTile
 	title="Download"
 	description="
-		Install Tiled Launcher on Plasma 6 usnig built-in Get New Widgets, or download it maually.
+		Install Tiled Launcher on Plasma 6 using built-in Get New Widgets, or download it maually.
 	"
 	color="light"
 	direction="right"

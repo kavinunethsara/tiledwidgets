@@ -25,7 +25,7 @@ tilename
 - **Tile.qml**      : The tile's entry point. File name can be anything as long as its correctly set in `metadata.json`
 - **TileConfig.qml**: Configuration screen for the tile. File name should be set in `metadata.json`
 
-Tiles are packaged as zip files with extension `.tile.zip`
+Tiles are packaged as ZIP files with extension `.tile.zip`
 
 ### metadata.json
 

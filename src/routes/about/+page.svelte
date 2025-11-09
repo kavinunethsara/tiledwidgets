@@ -26,7 +26,7 @@
 	<p>
 		Source for the common TileComponent component can be found on <a
 			href="https://github.com/kavinunethsara/TileComponent"
-			>Github ( kavinunethsara/Tile )
+			>Github ( kavinunethsara/TileComponent )
 		</a>.
 	</p>
 

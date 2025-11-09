@@ -14,7 +14,7 @@
 <DetailTile
 	title="Configurable"
 	description="
-		An application launcher that adapts to your workflow. With configurable tile layout and custom tiles, your application laucnher can look and function exactly the way you want.
+		An application launcher that adapts to your workflow. With configurable tile layout and custom tiles, your application launcher can look and function exactly the way you want.
 	"
 	thumbnail="{base}/tscreen-conf.png"
 />
@@ -22,7 +22,7 @@
 <DetailTile
 	title="Extensible"
 	description="
-		Download costum tiles or create your own. TiledWdgets tile system allows you to create tiles that can do anything a plasmoid can right from your application launcher.
+		Download costum tiles or create your own. TiledWidgets tile system allows you to create tiles that can do anything a plasmoid can right from your application launcher.
 	"
 	color="dark"
 	thumbnail="{base}/tscreen-dark.png"
@@ -41,7 +41,7 @@
 <DetailTile
 	title="Download"
 	description="
-		Install Tiled Screen on Plasma 6 usnig built-in Get New Widgets, or download it maually.
+		Install Tiled Screen on Plasma 6 using built-in Get New Widgets, or download it maually.
 	"
 	color="light"
 	direction="right"
