@@ -11,6 +11,8 @@ To publish a tile to the store section of the official website, create a Pull Re
 1. Images must be of the aspect ratio 16:9 and below 125KB.
 1. 6 Images are allowed in maximum
 
+The package for the tile should be XIP file with extension `.tile.zip`. The package files WILL NOT be hosted on the website, they should be uploaded to an externally.
+
 ### Tile Information
 
 Details for the tile are located in the `custom_tiles/{tileid}` folder. The following content should be included in `+page.svx` file. ( This is a svelte markdown file for the `mdsvex` module )
