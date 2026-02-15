@@ -9,8 +9,8 @@
 	subtitle="A collection of highly customizable widgets for KDE Plasma 6."
 />
 <Tile
-	title="Version 2.1 Release"
-	description="See what's new in Tiled Widgets 2.1"
+	title="Version 2.2 Release"
+	description="See what's new in Tiled Widgets 2.2"
 	link="{base}/changelog/"
 	color="light"
 />
