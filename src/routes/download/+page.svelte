@@ -46,7 +46,7 @@
 <pre style='color:#cad3f5;background-color:rgba(36,39,58,0.745098);font-size: 12pt;padding: 2ch;border-radius: 0.5ch; overflow-x: scroll;'>
 <i><span style='color:#ee99a0;'>$</span></i><i><span style='color:#ee99a0;'>cd</span></i> path/to/save/source
 
-<i><span style='color:#ee99a0;'>$</span></i><i><span style='color:#ee99a0;'>git</span></i> clone https://github.com/kavinunethsara/tiledscreen
+<i><span style='color:#ee99a0;'>$</span></i><i><span style='color:#ee99a0;'>git</span></i> clone --recurse-submodules https://github.com/kavinunethsara/tiledscreen
 
 <i><span style='color:#ee99a0;'>$</span></i><i><span style='color:#ee99a0;'>cd</span></i> tiledscreen
 <i><span style='color:#ee99a0;'>$</span></i><i><span style='color:#ee99a0;'>mkdir</span></i> build
